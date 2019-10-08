@@ -1,3 +1,4 @@
+# tcarlberg37 Thomas Carlberg 101155271
 language: node_js
 
 node_js:
@@ -6,4 +7,11 @@ node_js:
 cache: npm
 
 before_install:
-  - ls -la
+  mkdir dist
+  cd dist
+  ls -la
+
+install:
+  ls -la
+  npm install
+  ls -la
