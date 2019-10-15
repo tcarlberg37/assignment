@@ -18,7 +18,6 @@ script:
   - npm run test
 
 before_install:
-  - mkdir public
   - "npm config set spin false"
   - npm i -g now
 
